@@ -77,33 +77,6 @@ Kopumā sistēma sniegtu disku golfa spēlētājiem Latvijā vienotu digitālu p
  
 ![Funkcionālo atkarību grafi](Funkcionalas%20atkaribas.png)
  
-## Informācija, kurā normālformā ir katra tabula
- 
-**Definīcijas**
- 
-- **1NF:** visi lauki satur vienu atomāru vērtību.
-- **2NF:** ir 1NF, un katrs neatslēgas atribūts ir funkcionāli pilnīgi atkarīgs no jebkuras potenciālās atslēgas.
-- **3NF:** ir 2NF, un neatslēgas atribūti nav atkarīgi viens no otra.
-- **BCNF:** ja tabula ir 3. normālformā un tai ir viena vai vairākas potenciālās atslēgas, kas nepārklājas, tad tā ir arī Boisa-Koda normālformā (BCNF). Tabula ir BCNF, ja tā ir 3. normālformā un katrs atribūts ir funkcionāli pilnīgi atkarīgs tikai no jebkuras potenciālās atslēgas.
-**Tabulas un to normālformas**
- 
-| # | Tabula | Normālforma |
-|---|---|---|
-| 1 | Lietotajs | BCNF |
-| 2 | Disks | BCNF |
-| 3 | Apsaimniekotajs | BCNF |
-| 4 | Trase | BCNF |
-| 5 | Trases_zinojums | BCNF |
-| 6 | TrasesAtsauksme | BCNF |
-| 7 | Rekords | BCNF |
-| 8 | BojajumaZinojums | BCNF |
-| 9 | Raunds | BCNF |
-| 10 | Grozs | BCNF |
-| 11 | Metienu_Rezultats | BCNF |
-| 12 | Turisma_Objekts | BCNF |
-| 13 | Laikapstakli | BCNF |
-| 14 | Draudziba | BCNF |
-| 15 | LietotajaDisks | BCNF |
-| 16 | Raunda_Speletajs | BCNF |
+
 | 17 | Trases_objekts | BCNF |
  
