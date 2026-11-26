@@ -76,7 +76,3 @@ Kopumā sistēma sniegtu disku golfa spēlētājiem Latvijā vienotu digitālu p
 ## Funkcionālo atkarību grafi katrai tabulai
  
 ![Funkcionālo atkarību grafi](Funkcionalas%20atkaribas.png)
- 
-
-| 17 | Trases_objekts | BCNF |
- 
